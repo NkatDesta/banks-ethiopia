@@ -47,19 +47,24 @@ Follow these steps to run the project locally:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/banks-ethiopia-replica.git
-cd banks-ethiopia-replica
+  git clone https://github.com/yourusername/banks-ethiopia-replica.git
+  cd banks-ethiopia-replica
 
 # 2. Install dependencies
-composer install
-npm install && npm run dev
+  composer install
+  npm install && npm run dev
 
 # 3. Configure environment
-cp .env.example .env
-# Update your database and mail credentials inside .env
+  Update your database and mail credentials inside .env
 
 # 4. Run migrations
-php artisan migrate
+  php artisan migrate
 
 # 5. Start the development server
-php artisan serve
+  php artisan serve
+
+
+## ⚠️ Disclaimer
+This project is a replica created for **educational and internship purposes only**.  
+It is **not the official Banks Ethiopia website** and is not affiliated with Addis Software PLC or any financial institution.
+
