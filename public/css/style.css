@@ -1,0 +1,97 @@
+/*for nav*/
+.custom-navbar {
+    background-color: #f0f0f0; /* light gray */
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #007bff;
+}
+
+          /* Dropdown menu */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 180px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 10px 0;
+  z-index: 10;
+}
+
+.dropdown-menu li a {
+  padding: 10px 16px;
+  color: #555;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.loan-pre-register-section ul li {
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+}
+
+.loan-pre-register-section .card {
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+
+
+/* for the pre reguster loan secttion*/
+.loan-pre-register-section .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.loan-pre-register-section h1,
+.loan-pre-register-section h3 {
+    color: #00264d;
+}
